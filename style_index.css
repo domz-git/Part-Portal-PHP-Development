@@ -1,0 +1,131 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(font/fontfile.ttf);
+}
+.modern_font{
+  text-align: center;
+  font-family: myFirstFont;
+  color: white;
+}
+#news_title{
+  text-align: center;
+  font-family: myFirstFont;
+  color: black;
+}
+.article_section{
+  text-align: center;
+  color: lightslategrey;
+}
+.article_section_author{
+  float: left;
+  color: lightslategrey;
+}
+.article_section_date{
+  float: right;
+  color: lightslategrey;
+}
+.header {
+  padding: 30px;
+  background-image: url('background/pic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + #content {
+  padding-top: 60px;
+}
+#navheader{
+  font-size: 25px;
+  font-family: myFirstFont;
+  }
+#navbar p{
+  color: white;
+  display: block;
+  margin-top: 15px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+#myTable {
+  width: 100%;
+}
+#input_one{
+  margin-top: 9px;
+  display: block;
+  width: 100%;
+}
+#input_two{
+  margin-top: 9px;
+  display: block;
+  width: 100%;
+}
+#page-container {
+  position: relative;
+}
+
+#content-wrap {
+  padding-bottom: 3.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;            /* Footer height */
+}
+#footer_content{
+  width: 100%;
+  margin-left: 0px;
+  padding-bottom: 100px;
+  background: rgb(29, 49, 49);
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+blockquote{
+  color: white;
+}
+.credits{
+  color: lightslategrey;
+}
+#part_ikona{
+  font-family: myFirstFont;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+#part_ikona:hover{
+  color: lightslategrey;
+}
+@media only screen and (max-width: 800px) {
+  #input_two{
+    display: none;
+  }
+}
+@media only screen and (min-width: 800px) {
+  #input_one{
+    display: none;
+  }
+}
